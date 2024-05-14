@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-class{
+    width: 100%;
+    height:40px;
+    position: fixed;
+}
+
+.navigation-bar a:hover{
+    color:  rgb(6, 74, 6);
+}
+
+.navigation-bar{
+    width: 100%;
+    height: 55px;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #009e5f;  
+}
+
+.navigation-bar ul{
+    list-style: none;
+    display: flex;
+    gap: 15%;
+    position: fixed;
+    margin-left: 1045px;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-right: 15px;  
+}
+
+.navigation-bar a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo img{
+    display: flex;
+    width: 119px;
+    height: 100px;
+    margin-top: -50px;
+    margin-left: 20px;
+    justify-content: start;
+}
+ 
+.first{
+    width: 100%;
+    height: 800px;
+    display: flex;
+}
+
+.first .left-part{
+    width:30%;
+    height: 100%;
+}
+
+.left-part .coin{
+    vertical-align: middle;
+    width: 95%;
+    margin-top: 140px;
+    justify-items: center;
+}
+
+.left-part .tagline{
+    color: #009e5f;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    margin: -4px 0px 10px;
+    padding-bottom: 20px;
+}
+
+.explore a{
+    text-decoration: none;
+    border: 4px solid #009e5f;
+    color: #009e5f;
+    background-color: white;
+    padding: 10px 45px;
+    font-weight: 800;
+    margin-left: 107px;
+    display: inline-block;
+    font-size: 20px;
+    
+    text-transform: uppercase;
+}
+
+.right-part{
+    width: 70%;
+    height: 100%;
+    background: url(images/7up_featured.jpg);
+    background-size: cover;
+    overflow: hidden;
+    margin-top: 55px;
+}
+
+.right-part .play-button{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100%;
+}
+
+.explore .buttonline a:hover  {
+    background-color: #009E5F;
+    color: white;
+    transition: all 180ms ease;
+ }
+
+/*Simple 7up start */
+
+.bannar {
+  
+    width: 100%;
+    height: 121vh;
+    background-image: url(images/7up-simple-banner.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.bannar .bannar-info {
+    text-align: left;
+    position: absolute;
+    text-align: left;
+    margin: 158px 0px 0px 102px;
+}
+
+.bannar .bannar-info h1 {
+    font-size: 66px;
+    margin: 20px 0px;
+    color: white;
+}
+
+.bannar .bannar-info p {
+    font-size: 30px;
+    color: white;
+}
+
+.bannar .bannar-info .banner-btn {
+    margin-top: 20px;
+}
+
+.bannar .bannar-info .banner-btn .explore-btn2 {
+    padding: 20px;
+    font-size: 20px;
+    color: #009E5F;
+    border: 1px solid #009E5F;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.bannar .bannar-info .banner-btn .explore-btn2:hover {
+    color: white;
+    background-color: #009E5F;
+    transition: all 200ms ease;
+}
+
+/*Simple 7up end */
+
+/* 7up recipe start */
+
+.rrecipe a {
+    text-decoration: none;
+}
+
+.rrecipe .rdiv {
+    display: flex;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    transition: 0.2s;
+    cursor: pointer;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.rrecipe .cocktail {
+    background-image: url(images/module_cocktail.jpg);
+}
+
+.rrecipe .cooking {
+    background-image: url(images/module_cooking.jpg);
+}
+
+.rrecipe .other-rrecipe {
+    background-image: url(images/module_seeall.jpg);
+}
+
+.rrecipe h2 {
+    padding: 27px 29px 26px;
+    font-size: 41px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    width: fit-content;
+    text-align: center;
+    
+}
+
+.rrecipe .cocktail h2 {
+    background-color: #FE5887;
+}
+
+.rrecipe .cooking h2 {
+    background-color: #6BA13F;
+}
+
+.rrecipe .other-rrecipe h2 {
+    background-color: #C064AC;
+}
+
+.rrecipe .rdiv:hover h2 {
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+}
+
+/* 7up recipe end */
+
+
+/* cans starts */
+
+.cans {
+    display: flex;
+   
+}
+.cans .image-gallery .images img{
+    padding-right: 350px;
+    max-width: 140%;
+}
+.cans .image-gallery .nav-arr .nav-arrow{
+    padding-left: 200px;
+    padding-right: 200px;
+    max-width: 94%;
+}
+
+/* left side */
+.cans .image-gallery{
+    width: 55%;
+    height: auto;
+    display: flexbox;
+}
+
+
+
+/* right side */
+
+.cans .image-info {
+    padding-top: 6rem;
+    padding-left: 5rem;
+    background-color: #ececec;
+    overflow: hidden;
+    width: 45%;
+}
+
+.cans .image-info h1 {
+    color: #009E5F;
+    font-size: 84px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 35px 0px 22px;
+    line-height: 1.3;
+}
+
+.cans .image-info span {
+   
+    color: #D71E05;
+    left: -0.4em;
+}
+
+.cans .image-info p {
+    font-size: 20px;
+    color: #818182;
+    margin-bottom: 10px;
+    max-width: 600px;
+    text-wrap: wrap;
+}
+
+.cans .image-info img {
+    width: 25rem;
+    margin-top: 80px;
+    margin-right: 238px;
+    display: block;
+}
+
+/* cans ends */
+
+/* Footer starts */
+
+.footer {
+    background-image: url(images/footer-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    padding: 0px 15px 25px 15px;
+}
+
+.footer .footer-banner {
+    margin-top: 35%;
+    grid-column: 2;
+    margin-left: 6%;
+    width: auto;
+    height: auto;
+    font-weight: 600;
+}
+
+.footer .footer-banner img {
+    width: 74%;
+    height: 60%;
+}
+
+.footer .container {
+    grid-column: 1/-1;
+    grid-row: 2;
+    width: 75%;
+    height: fit-content;
+    margin: auto;
+    text-align: center;
+    background-color: #FFFFFFBF;
+    padding: 10px;
+    border-radius: 80%;
+}
+
+.footer .container a {
+    text-decoration: none;
+    color: #636363;
+}
+
+.footer .container .socials li {
+    list-style: none;
+    display: inline;
+    padding: 0px 13px;
+    gap: 10px;
+}
+
+.footer .container .utility li {
+    list-style: none;
+    display: inline;
+    padding: 0px 13px;
+}
+
+.footer .container .socials {
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 12px;
+}
+
+.footer .container .utility {
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.footer .container .last p {
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: #636363;
+}
+
+/* Footer ends */
+
